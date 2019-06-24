@@ -31,7 +31,19 @@ This basically means, to see each version of each design you need to have Balsam
 
 ## Want to help?
 
-Get in touch with me -
+### 1. Get Mole running
+
+[Install details](https://github.com/davrodpin/mole/blob/master/README.md) are in the main repo.
+
+### 2. Look at the docs
+
+[The documentation](https://davrodpin.github.io/mole/) is probably a good place to start.
+
+### 3. Look for a design issue
+
+The [Issues are located in David's repo](https://github.com/davrodpin/mole/issues). Have a look there for some design tickets.
+
+### 4. Get in touch
 
 - twitter: @bernardtyers
 - email: bernardtyers@acm.org
