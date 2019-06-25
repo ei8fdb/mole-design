@@ -25,9 +25,15 @@ This basically means, to see each version of each design you need to have Balsam
 
 - [x] create ssh aliases
 - [x] create local-remote ssh tunnels
-- [ ] create remote-local ssh tunnels
 - [x] way to connect/disconnect ssh tunnels
-- [ ] add to this to-do list
+- [ ] add more things to this to-do list!
+- [ ] create remote-local ssh tunnels
+- [ ] auto-select local port
+- [ ] add ssh-key
+- [ ] advanced options?
+- [ ] start mole in background
+- [ ] skip host key validation
+- [ ] use ssh config file parameters
 
 ## Want to help?
 
