@@ -30,17 +30,27 @@ This basically means, to see each version of each design you need to have Balsam
 - [x] create ssh aliases
 - [x] create local-remote ssh tunnels
 - [x] way to connect/disconnect ssh tunnels
-- [ ] add more things to this to-do list!
+- [ ] need way for user to enter multiple local:port + remote:port combinations
 - [ ] create remote-local ssh tunnels
 - [ ] auto-select local port
-- [ ] add ssh-key
-- [ ] advanced options?
-- [ ] start mole in background
-- [ ] skip host key validation
-- [ ] use ssh config file parameters
-- [ ] configure persistent ssh connection. Detailed in [GH issue 26](https://github.com/davrodpin/mole/issues/26). (default send packet every 10s, allow user to change)
-- [ ] configure server timeout. Detailed in [GH issue 12](https://github.com/davrodpin/mole/issues/12).
-- [ ] configure reconnect to server if it drops. Detailed in [GH issue 24](https://github.com/davrodpin/mole/issues/12). (Is it needed?)
+- [ ] add ssh-key path for each tunnel
+- [ ] add ssh password for each tunnel
+- Options, to include:
+- General
+ * [ ] start mole in background
+ * [ ] use ssh config file parameters
+-  Specific tunnel options
+ * [ ] skip host key validation
+ * [ ] configure server connection timeout. Detailed in [GH issue 12](https://github.com/davrodpin/mole/issues/12).
+ - Server reconnect
+ * [ ] configure "server reconnect" if connection it drops. Detailed in [GH issue 24](https://github.com/davrodpin/mole/issues/24). (default on)
+ * [ ] configure time to wait before server reconnect
+ * [ ] configure number of reconnect retry attempts before giving up
+ - Keep alive
+ * [ ] configure "keep alive" . Detailed in [GH issue 24](https://github.com/davrodpin/mole/issues/26). (default on)
+  * [ ] configure persistent ssh connection. Detailed in [GH issue 26](https://github.com/davrodpin/mole/issues/26). (default send packet every 10s, allow user to change)
+- [ ] add more things to this to-do list!
+- [ ] add way to view tunnel logs
 
 ## Want to help?
 
