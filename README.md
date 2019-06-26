@@ -21,6 +21,10 @@ It doesn't support versioning with individual files well. (If I'm wrong, please 
 
 This basically means, to see each version of each design you need to have Balsamiq, *or* you/I have to export each design version to a .png.
 
+## User research
+
+- [Hackernew thread](https://news.ycombinator.com/item?id=18236125) about Mole
+
 ## Design to-do list
 
 - [x] create ssh aliases
@@ -34,6 +38,9 @@ This basically means, to see each version of each design you need to have Balsam
 - [ ] start mole in background
 - [ ] skip host key validation
 - [ ] use ssh config file parameters
+- [ ] configure persistent ssh connection. Detailed in [GH issue 26](https://github.com/davrodpin/mole/issues/26). (default send packet every 10s, allow user to change)
+- [ ] configure server timeout. Detailed in [GH issue 12](https://github.com/davrodpin/mole/issues/12).
+- [ ] configure reconnect to server if it drops. Detailed in [GH issue 24](https://github.com/davrodpin/mole/issues/12). (Is it needed?)
 
 ## Want to help?
 
